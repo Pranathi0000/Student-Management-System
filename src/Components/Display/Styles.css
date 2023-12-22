@@ -1,0 +1,34 @@
+/* Style the DisplayStudents container */
+.display-students {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #e6f0ff; /* Background color */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Style the student table */
+.students-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style table headers */
+.students-table th {
+  padding: 8px;
+  background-color: #289be7; /* Header background color - lighter blue */
+  color: white;
+  border: 1px solid #ddd; /* Add border */
+}
+
+/* Style table rows */
+.students-table tr:nth-child(even) {
+  background-color: #f4f4f4; /* Alternate row color */
+}
+
+.students-table td {
+  padding: 6px 8px; /* Adjust cell padding */
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Add bottom border */
+  border-right: 1px solid #ddd; /* Add right border */
+}

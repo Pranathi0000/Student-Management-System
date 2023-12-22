@@ -1,0 +1,31 @@
+/* Style the student details container */
+body{
+    background-color: #e6f0ff;
+}
+.student-details {
+    max-width: 250px;
+    margin:50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style headings */
+  .student-details h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Style detail paragraphs */
+  .student-details p {
+    margin-bottom: 10px;
+    font-size: larger;
+  }
+  
+  /* Style strong text within paragraphs */
+  .student-details strong {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
